@@ -10,6 +10,9 @@ class Conta:
         
     def deposita(self, valor):
         self.saldo += valor
+    
+    def saca(self, valor):
+        self.saldo -= valor
 
 
     
